@@ -217,6 +217,8 @@ h1 {
 // Contact //
 
 .contact {
+  width: 70vw;
+  max-width: 400px;
   margin: auto;
   form {
     display: flex;
@@ -228,21 +230,21 @@ h1 {
     }
   }
   input, textarea {
-    width: 70vw;
-    max-width: 500px;
+    width: 100%;
     padding: 12px;
     border-radius: 5px;
     border: 1px solid rgba($color: #000, $alpha: 0.05);
     background: rgba($color: #000, $alpha: 0.02);
-    margin-top: 20px;
+    margin-top: 10px;
   }
   textarea {
     min-height: 90px;
     resize: vertical;
   }
   button {
-    margin: 20px;
-    padding: 8px 30px;
+    font-weight: 700;
+    margin: 20px 0 0;
+    padding: 10px 40px;
     background: #537DFE;
     border: 1px solid #537DFE;
     border-radius: 3px;
@@ -251,6 +253,9 @@ h1 {
     &:hover {
       background: rgba($color: #537DFE, $alpha: 0.9);
     }
+  }
+  .form-btn {
+    margin: auto;
   }
 }
 

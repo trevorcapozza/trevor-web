@@ -26,9 +26,11 @@
   h1, h2, p {
     color: #fff;
   }
-  .button {
-    color: #fff;
-    border-color: #fff;
+  .blog-text {
+    .button {
+      color: #fff;
+      border-color: #fff;
+    }
   }
   .navbar {
     a {
@@ -74,7 +76,7 @@
     cursor: pointer;
 
     &.router-link-exact-active {
-      color: #0074d9;
+      color: #537DFE;
     }
     
     &:hover {

@@ -19,7 +19,7 @@ import ThemeSwitcher from '@/components/ThemeSwitcher'
 
 export default {
   components: {
-    ThemeSwitcher
+    ThemeSwitcher,
   },
   mounted() {
     this.theme = localStorage.getItem('theme') || 'theme-light'

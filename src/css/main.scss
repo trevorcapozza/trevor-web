@@ -63,7 +63,7 @@
 }
 
 .navbar {
-  margin: 25px auto 175px;
+  margin: 25px auto;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -114,11 +114,15 @@ h1 {
   font-weight: 900;
 }
 
+.hero, .container, .skills, .contact {
+  margin: 175px auto;
+}
+
 .container {
+  border: 1px solid red;
   padding: 20px;
   display: flex;
   justify-content: space-between;
-  margin: 150px auto;
 }
 
 .art {
@@ -141,7 +145,6 @@ h1 {
   justify-content: center;
   align-items: center;
   text-align: center;
-  margin: 0px auto 150px;
   p {
     font-size: 16px;
     font-weight: 500;
@@ -219,7 +222,6 @@ h1 {
 .contact {
   width: 70vw;
   max-width: 400px;
-  margin: auto;
   form {
     display: flex;
     flex-direction: column;
@@ -332,8 +334,11 @@ h1 {
   margin-bottom: 20px;
 }
 
-.navbar {
+.hero, .container, .skills, .contact {
+  margin: 150px auto;
+}
 
+.navbar {
   flex-direction: column;
   margin-bottom: 150px;
   a {

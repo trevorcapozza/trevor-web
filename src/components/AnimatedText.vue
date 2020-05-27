@@ -23,10 +23,6 @@ export default {
 
 <style lang="scss">
 
-.hero {
-  margin: 0 auto;
-}
-
 .type {
   justify-content: center;
 }

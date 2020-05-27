@@ -33,17 +33,22 @@
       <img src="@/assets/xd.svg" alt="">
       </div>
     </div>
-    <div>.</div>
+    <Contact/>
+    <Footer/>
   </div>
 </template>
 
 <script>
 import AnimatedText from '@/components/AnimatedText.vue'
+import Contact from '@/components/Contact.vue'
+import Footer from '@/components/Footer.vue'
 
 export default {
   name: 'Home',
   components: {
-    AnimatedText
+    AnimatedText,
+    Contact,
+    Footer,
   }
 }
 </script>

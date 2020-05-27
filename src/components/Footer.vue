@@ -1,5 +1,5 @@
 <template>
-  <div class="footer"><p>Copyright © 2021 Trevor Capozza</p></div>
+  <div class="footer"><p>Copyright © {{ new Date().getFullYear() }} Trevor Capozza</p></div>
 </template>
 
 <script>

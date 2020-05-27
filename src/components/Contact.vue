@@ -1,7 +1,7 @@
 <template>
 <div class="contact max">
     <h1>Contact</h1>
-    <form name="contact" method="POST" data-netlify="true" action="">
+    <form name="contact" method="POST" data-netlify="true">
         <input type="text" name="name" placeholder="Name"/>   
         <input type="email" name="email" placeholder="Email"/>
         <textarea name="message" placeholder="Message"></textarea>
@@ -12,6 +12,6 @@
 
 <script>
 export default {
-  name: "Contact"
+  name: 'Contact',
 }
 </script>

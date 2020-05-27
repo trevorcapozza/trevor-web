@@ -33,21 +33,34 @@
       <img src="@/assets/xd.svg" alt="">
       </div>
     </div>
-    <Contact/>
+    <div class="contac">
+      <form name="contact" method="POST" data-netlify="true">
+        <p>
+          <label>Your Name: <input type="text" name="name" /></label>   
+        </p>
+        <p>
+        <label>Your Email: <input type="email" name="email" /></label>
+        </p>
+        <p>
+          <label>Message: <textarea name="message"></textarea></label>
+        </p>
+        <p>
+          <button type="submit">Send</button>
+        </p>
+    </form>
+    </div>
     <Footer/>
   </div>
 </template>
 
 <script>
 import AnimatedText from '@/components/AnimatedText.vue'
-import Contact from '@/components/Contact.vue'
 import Footer from '@/components/Footer.vue'
 
 export default {
   name: 'Home',
   components: {
     AnimatedText,
-    Contact,
     Footer,
   }
 }

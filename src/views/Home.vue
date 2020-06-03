@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="home-page">
     <div class="hero">
       <AnimatedText/>
     </div>
@@ -34,21 +34,18 @@
       </div>
     </div>
     <Contact/>
-    <Footer/>
   </div>
 </template>
 
 <script>
 import AnimatedText from '@/components/AnimatedText.vue'
 import Contact from '@/components/Contact.vue'
-import Footer from '@/components/Footer.vue'
 
 export default {
   name: 'Home',
   components: {
     AnimatedText,
     Contact,
-    Footer,
   }
 }
 </script>

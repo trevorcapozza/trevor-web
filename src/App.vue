@@ -11,15 +11,18 @@
       </div>
     </div>
     <router-view/>
+    <Footer/>
   </div>
 </template>
 
 <script>
 import ThemeSwitcher from '@/components/ThemeSwitcher'
+import Footer from '@/components/Footer'
 
 export default {
   components: {
     ThemeSwitcher,
+    Footer,
   },
   mounted() {
     this.theme = localStorage.getItem('theme') || 'theme-light'

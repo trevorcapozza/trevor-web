@@ -17,9 +17,9 @@
 <br/>
 
 
-### 4. Box Icons, Feather Icons, & Icon Jar
+### 4. Font Awesome Icons
 
-![Box Icons](@/assets/blog/box-icons.png)
+![Box Icons](@/assets/blog/font-awesome.png)
 
 <br/>
 

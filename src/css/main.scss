@@ -30,7 +30,7 @@ html, body {
   transition: ease-in .2s;
   background: #121212;
 
-  h1, h2, h3, p, li {
+  h1, h2, h3, h4, p, li {
     color: #fff;
   }
   blockquote p {
@@ -137,6 +137,11 @@ html, body {
 h1 {
   font-size: 44px;
   font-weight: 900;
+}
+
+.small {
+  font-weight: 100;
+  font-style: italic;
 }
 
 .hero, .container, .skills, .contact {

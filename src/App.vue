@@ -3,10 +3,8 @@
     <div class="topline" />
     <div class="navbar max">
       <router-link :to="{ name: 'Home' }"><h2 class="logo"><span>trevor</span>capozza</h2></router-link>
-      <!-- <img src="@/assets/logo.svg" alt="" class="logo"> -->
       <div class="nav-links">
         <theme-switcher :theme="theme" class="theme-switcher" @themeChanged="updateTheme" />
-        <!-- <router-link :to="{ name: 'Home' }">Home</router-link> -->
         <router-link :to="{ name: 'Blog' }">Blog</router-link>
       </div>
     </div>

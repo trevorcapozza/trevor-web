@@ -14,32 +14,9 @@ As I started researching ways to do this, I came across many powerful tools. I a
 ## Markdown it is.
 I quickly realized I wanted to write my blogs using Markdown and build the custom routing aspect from scratch. If you don't know what Markdown is, here is a brief example:
 
---- _Insert Markdown Image Here_ ---
-
-<!-- ---
-```
-# H1
-## H2
-_Wrapping your text in underscores creates Italics_
-* Adding an asterisk creates a list 
-    * This is a nested list
-> You can also add blockquotes by using ">"
-```
+![Markdown Example](@/assets/blog/markdown-example.png)
 
 <br/>
-
-_The code above will output the following results:_
-<br/>
-<br/>
-
-
-# H1
-## H2
-_Wrapping your text in underscores creates Italics_
-* Adding an asterisk creates a list 
-    * This is a nested list
-> You can also add blockquotes by using ">"
---- -->
 
 As you can see, it allows you to write text extremely fast without having to worry about html classes.
 

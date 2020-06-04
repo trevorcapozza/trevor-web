@@ -1,75 +1,49 @@
-# This is a test
-## Heading 2
-_lorem ipsum_ dolor __amet__
+# Adding Markdown to My Personal Site
+_Using Vue & Github Markdown_
+<br />
+<br />
+<br />
+A few months ago, I rewrote my personal website from scratch using Vue.js which may seem like overkill since Vue is designed for sophisticated single page web apps. However, I wanted to learn Vue and redesign my personal website - so why not do both together? If you want to learn more about that process, check out my [migrating to Vue](/2020/vue-markdown) blog.
 
-It's decided then. At the center of it all, what I want to accomplish is just two things.It's decided then. 
+Before Vue, I was writing static blogs in raw html/css and having to hard code everything together. I knew I had to automate these tedious tasks and I wanted to make the writing process a lot simpler.
 
-At the center of it all, what I want to accomplish is just two things.
-
-- Be able to write my blogs in markdown
-- Vue must be able to display these markdows as a regular html page
-- Be able to write blogs in a simple way
-
-
-> This is a blockquote
-
-Here is some `code` for you.
+As I started researching ways to do this, I came across many powerful tools. I actually got halfway into rewriting my site for a third time using [Gridsome](https://gridsome.org/) because it had great built-in blog features. After running into tons of issues, I came to the realization that I was going to have to do this one myself.
+<br />
 
 
+## Markdown it is.
+I quickly realized I wanted to write my blogs using Markdown and build the custom routing aspect from scratch. If you don't know what Markdown is, here is a brief example:
+
+--- _Insert Markdown Image Here_ ---
+
+<!-- ---
 ```
-Here is some text that can be used within a shaded area like this so that I can type a bunch of words.
+# H1
+## H2
+_Wrapping your text in underscores creates Italics_
+* Adding an asterisk creates a list 
+    * This is a nested list
+> You can also add blockquotes by using ">"
 ```
 
-| Tables        | Are           | Cool  |  Another Column, Wow!    |
-| ------------- |:-------------:| -----:| --- |
-| col 3 is      | right-aligned |       |      | 
-| col 2 is      | centered      |       |      |
-| zebra stripes | are neat      |       |      |
-| |test | 
-| look more text! |
+<br/>
+
+_The code above will output the following results:_
+<br/>
+<br/>
 
 
-### 1. Coolors
+# H1
+## H2
+_Wrapping your text in underscores creates Italics_
+* Adding an asterisk creates a list 
+    * This is a nested list
+> You can also add blockquotes by using ">"
+--- -->
 
-![Coolors](@/assets/blog/coolors.gif)
+As you can see, it allows you to write text extremely fast without having to worry about html classes.
 
-### 2. Undraw
+<br/>
 
-![Undraw](@/assets/blog/undraw.png)
-
-### 3. Google Fonts
-
-![Google Fonts](@/assets/blog/google_fonts.png)
-
-### 4. Box Icons, Feather Icons, & Icon Jar
-
-![Box Icons](@/assets/blog/box-icons.png)
-
-### 5. Collect UI
-
-![Collect UI](@/assets/blog/collectui.png)
-
-### 6. Unsplash
-
-![Unsplash](@/assets/blog/unsplash.png)
-
-### 7. Interfacer (Mockups)
-
-![Interfacer](@/assets/blog/interfacer.png)
-
-### 8. Kraken.io
-
-![Kraken](@/assets/blog/kraken.png)
-
-### 9. Favicon Generator
-
-![Favicon Generator](@/assets/blog/favicon-generator.png)
-
-### 10. Hemingway Editor
-
-![Hemingway Editor](@/assets/blog/hemingway.png)
-
-
-
-
-
+## Step 1
+After deciding on Markdown, I stumbled across this [Github-Markdown](https://github.com/sindresorhus/github-markdown-css) repository that had some good documentation. 

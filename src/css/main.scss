@@ -288,6 +288,94 @@ h1 {
     img {
       max-width: 100%;
     }
+    .image50 {
+      max-width: 600px;
+      border-radius: 5px;
+      -webkit-box-shadow: 0px 0px 50px -12px rgba(0,0,0,0.60);
+      -moz-box-shadow: 0px 0px 50px -12px rgba(0,0,0,0.60);
+      box-shadow: 0px 0px 50px -12px rgba(0,0,0,0.60);
+    }
+    .window-center {
+      max-width: 800px;
+      margin: auto;
+      justify-content: center;
+      -webkit-box-shadow: 0px 0px 50px -12px rgba(0,0,0,0.60);
+      -moz-box-shadow: 0px 0px 50px -12px rgba(0,0,0,0.60);
+      box-shadow: 0px 0px 50px -12px rgba(0,0,0,0.60);
+    }
+    .browser {
+      padding: 6px 15px;
+      background: #0d0d0d;
+      border-bottom: 1px solid rgba($color: #fff, $alpha: 0.2);
+      border-top-left-radius: 5px;
+      border-top-right-radius: 5px;
+      .dot {
+        height: 11px;
+        width: 11px;
+        margin-right: 10px;
+        background-color: rgba($color: #fff, $alpha: 0.3);
+        border-radius: 50%;
+        display: inline-block;
+      }
+    }
+    .terminal {
+      background: #0d0d0d;
+      padding: 10px;
+      font-size: 14px;
+      font-family: monospace;
+      color: white;
+      border-bottom-left-radius: 5px;
+      border-bottom-right-radius: 5px;
+      p {
+        margin: 0;
+      }
+      .white {
+        color: white;
+      }
+      .blue {
+        color: #6674f7;
+        font-size: 13px;
+      }
+      .green {
+        color: #58be38;
+        margin-right: 7px;
+      }
+      .lightblue {
+        color: #1fc3c4;
+      }
+      .lightgrey {
+        color: lightgrey;
+      }
+      .indent {
+        margin-left: 20px;
+      }
+      .yellow {
+        color: #b5b03a;
+      }
+      .vue-features {
+        margin-left: 5px;
+        .row {
+          align-items: center;
+          display: flex;
+        }
+        .circle {
+          margin-right: 10px;
+          display: inline-block;
+          height: 10px;
+          width: 10px;
+          border-radius: 50%;
+          border: 1px solid rgba($color: #fff, $alpha: 0.7);
+        }
+        .circle-select {
+          margin-right: 10px;
+          display: inline-block;
+          height: 10px;
+          width: 10px;
+          border-radius: 50%;
+          background-color: #58be38;
+        }
+      }
+    }
 }
 
 // Contact //

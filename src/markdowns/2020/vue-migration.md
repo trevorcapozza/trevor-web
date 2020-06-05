@@ -20,6 +20,10 @@ vue create my-project
 ```
 <br/>
 
+You will be prompted to pick a preset. You can either choose the default preset which comes with a basic Babel + ESLint setup, or select "Manually select features" to pick the features you need. In this case, I chose to manually select my features.
+
+<br/>
+
 <div class="window-center">
     <div class="browser">
         <span class="dot"></span>
@@ -35,6 +39,10 @@ vue create my-project
 </div>
 
 <br/>
+<br/>
+
+The default setup is great for quickly prototyping a new project, while the manual setup provides more options that are likely needed for more production-oriented projects.
+
 <br/>
 
 <div class="window-center">
@@ -61,3 +69,9 @@ vue create my-project
     </div>
 </div>
 
+<br/>
+<br/>
+
+If you chose to manually select features, at the end of the prompts you also have the option to save your selections as a preset so that you can reuse it in the future. We will discuss presets and plugins in the next section.
+
+<br/>

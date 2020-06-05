@@ -2,7 +2,7 @@
 <div class="blog-page">
   <div class="blogs markdown-body">
     <router-view />
-    <router-link to="/blog" tag="a" class="back">&laquo; Back</router-link>
+    <router-link to="/blog" class="back">&laquo; Back</router-link>
   </div>
 </div>
 </template>

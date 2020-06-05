@@ -54,7 +54,7 @@ vue create my-project
             <div class="row"><span class="circle-select"></span><p>Router</p></div>
             <div class="row"><span class="circle"></span><p>Vuex</p></div>
             <div class="row"><span class="circle"></span><p>CSS Pre-processors</p></div>
-            <div class="row"><span class="circle"></span><p>Linter / Formatter</p></div>
+            <div class="row"><span class="circle-select"></span><p>Linter / Formatter</p></div>
             <div class="row"><span class="circle"></span><p>Unit Testing</p></div>
             <div class="row"><span class="circle"></span><p>E2E Testing</p></div>
         </div>

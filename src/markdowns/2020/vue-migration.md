@@ -219,4 +219,4 @@ npm run serve
 Running the command **npm run serve** will spin up your project into a localhost browser so that you can view your live edits as you code.
 
 ## Viola!
-If you would like to know more about Vue or a tutorial on a specific project, shoot me an email with a request at [trevor.capozza@gmail.com](mailto:trevor.capozza@gmail.com?subject=Vue%20Request)
+If you would like to know more about Vue or a tutorial on a specific project, shoot me an email with a request at [trevor.capozza@gmail.com](mailto:trevor.capozza@gmail.com?subject=Re:%20[Getting%20Started%20With%20Vue])

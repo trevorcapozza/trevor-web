@@ -41,7 +41,7 @@ You will be prompted to pick a preset. You can either choose the default preset 
 <br/>
 <br/>
 
-In my case, I needed to have Router installed since I will want to toggle between different pages. I am also going to be doing all of my styling through node sass so I will install that through the CSS Pre-processors.
+In my case, I chose to install Router since I will want to toggle between different pages. I am also going to be doing all of my styling through SCSS so I will install that through the CSS Pre-processors.
 
 <br/>
 

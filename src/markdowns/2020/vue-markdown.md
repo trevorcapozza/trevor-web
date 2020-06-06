@@ -24,3 +24,5 @@ As you can see, it allows you to write text extremely fast without having to wor
 
 ## Step 1
 After deciding on Markdown, I stumbled across this [Github-Markdown](https://github.com/sindresorhus/github-markdown-css) repository that had some good documentation. 
+
+## Step 2

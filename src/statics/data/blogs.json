@@ -9,15 +9,15 @@
       {
         "id": "vue-migration",
         "date": "May 29, 2020",
-        "title": "Migrating My Personal Website to Vue",
-        "description": "The design resources that I use most often."
+        "title": "Getting Started with Vue",
+        "description": "Why I chose to migrate along with a tutorial to installing and getting setup with Vue."
       }
     ],
     "2019": [
       {
         "id": "10-best-design-resources",
         "date": "Feb 28, 2019",
-        "title": "10 Best Design Resources",
+        "title": "10 Free Visual Design Resources That I Use",
         "description": "The design resources that I use most often."
       }
     ]

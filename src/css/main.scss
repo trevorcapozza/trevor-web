@@ -47,6 +47,9 @@ html, body {
   .markdown-body a {
     color: #01B7EE;
   }
+  .markdown-body h4 {
+    color: #fff;
+  }
   .blog-text {
     .button {
       color: #fff;
@@ -288,13 +291,6 @@ h1 {
     img {
       max-width: 100%;
     }
-    .image50 {
-      max-width: 600px;
-      border-radius: 5px;
-      -webkit-box-shadow: 0px 0px 50px -12px rgba(0,0,0,0.60);
-      -moz-box-shadow: 0px 0px 50px -12px rgba(0,0,0,0.60);
-      box-shadow: 0px 0px 50px -12px rgba(0,0,0,0.60);
-    }
     .window-center {
       max-width: 800px;
       margin: auto;
@@ -305,7 +301,7 @@ h1 {
     }
     .browser {
       padding: 6px 15px;
-      background: #0d0d0d;
+      background: #000;
       border-bottom: 1px solid rgba($color: #fff, $alpha: 0.2);
       border-top-left-radius: 5px;
       border-top-right-radius: 5px;
@@ -313,13 +309,13 @@ h1 {
         height: 11px;
         width: 11px;
         margin-right: 10px;
-        background-color: rgba($color: #fff, $alpha: 0.3);
+        background-color: rgba($color: #fff, $alpha: 0.2);
         border-radius: 50%;
         display: inline-block;
       }
     }
     .terminal {
-      background: #0d0d0d;
+      background: #000;
       padding: 10px;
       font-size: 13px;
       font-family: SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;
@@ -341,7 +337,7 @@ h1 {
         margin-right: 7px;
       }
       .lightblue {
-        color: #1fc3c4;
+        color: #1fc3c4 !important;
       }
       .lightgrey {
         color: lightgrey;
@@ -349,12 +345,20 @@ h1 {
       .indent {
         margin-left: 20px;
       }
+      .brightyellow {
+        color: #fffb7e;
+      }
       .yellow {
         color: #b5b03a;
       }
+      .darkgrey {
+        color: #636364;
+      }
       .vue-features {
         margin-left: 10px;
-        color: #9d9c9c;
+        p {
+          color: lightgrey;
+        }
         .row {
           align-items: center;
           display: flex;
@@ -374,6 +378,17 @@ h1 {
           width: 10px;
           border-radius: 50%;
           background-color: #58be38;
+        }
+        .inner-dot {
+          display: inline-block;
+          width: 8px;
+          height: 8px;
+          margin-left: 1px;
+          border-radius: 50%;
+          background-color: transparent;
+          border: 1px solid black;
+          position: absolute;
+          z-index: 5;
         }
       }
     }

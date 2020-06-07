@@ -1,10 +1,10 @@
 <template>
-<div class="blog-page">
-  <div class="blogs markdown-body">
-    <router-view />
-    <router-link to="/blog" class="back">&laquo; Back</router-link>
+  <div class="blog-page">
+    <div class="blogs markdown-body">
+      <router-view />
+      <router-link to="/blog" class="back">&laquo; Back</router-link>
+    </div>
   </div>
-</div>
 </template>
 
 <script>

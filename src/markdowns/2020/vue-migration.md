@@ -1,8 +1,9 @@
 # Migrating My Personal Website to Vue
-
+---
 <br/>
 
-After recently discovering Vue.js and how powerful it is, I knew right away that I wanted to start learning how it worked. [Vue](https://vuejs.org) is a progressive framework for building user interfaces and single page web apps using HTML, CSS, and JavaScript. 
+
+After recently discovering Vue.js and how powerful it is, I knew right away that I wanted to start learning how it worked. <a href="https://www.vuejs.org" target="_blank">Vue</a> is a progressive framework for building user interfaces and single page web apps using HTML, CSS, and JavaScript. 
 
 Using Vue for a personal website is definitely overkill, but it was a great side project to get familiar with the framework.
 

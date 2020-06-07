@@ -30,8 +30,10 @@ Whether you’re creating a logo, designing a website, or defining a brand ident
 
 ### 4. Font Awesome Icons
 
-![Box Icons](@/assets/blog/font-awesome.png)
-When it comes to icons, <a href="https://boxicons.com" target="_blank">Box Icons</a> and <a href="https://feathericons.com" target="_blank">Feather Icons</a> are my favorite resources. Collectively, they have nearly 1,000 icons to choose from so with a library that large, you're destined to find the right icons for your project. If you want to take it a step further, I highly recommend downloading <a href="https://geticonjar.com" target="_blank">Icon Jar</a>. This will allow you to store all of your icons in one place and makes finding your icons extremely easy.
+![Font Awesome](@/assets/blog/font-awesome.png)
+When it comes to icons, <a href="https://fontawesome.com" target="_blank">Font Awesome</a> is my favorite resources. Font Awesome has over 7,500 icons - over 1,500 of which are included in the free version. These icons are extremely easy to use and is what makes them my favorite. Once you create an account and add some generated code into the `<head>` section of your index.html, you are ready to start using their icons. For example, if I wanted to add the user-circle icon to my website, I would simply add the following code provided by <a href="https://fontawesome.com/icons/user-circle?style=solid" target="_blank">Font Awesome:</a> `<i class="fas fa-user-circle"></i>`
+
+If you want to change colors or sizing, you can add your styles directly inside the `<i>` tag. For example, if I wanted to change the icon above to blue, I would add in the following styles: `<i class="fas fa-user-circle" style="color:#007bff;"></i>`
 
 <br/>
 

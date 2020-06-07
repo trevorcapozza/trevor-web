@@ -1,7 +1,7 @@
 <template>
 <div>
   <div class="home">
-    <h1 class="headline center">Blogs</h1>
+    <h1 class="headline center">Blog</h1>
     <h4 class="small">This blog section is still under construction...</h4>
     <div class="sections">
       <div v-for="(section, index) in Object.keys(entries).slice().reverse()" :key="index" class="group">

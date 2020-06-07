@@ -4,7 +4,7 @@
         "id": "vue-markdown",
         "date": "June 2, 2020",
         "title": "Adding a Markdown Blog to My Website",
-        "description": "The design resources that I use most often."
+        "description": "Add blogging functionality to your Vue project by using Markdown."
       },
       {
         "id": "vue-migration",
@@ -15,10 +15,10 @@
     ],
     "2019": [
       {
-        "id": "10-best-design-resources",
+        "id": "10-free-design-resources",
         "date": "Feb 28, 2019",
-        "title": "10 Free Visual Design Resources That I Use",
-        "description": "The design resources that I use most often."
+        "title": "10 Free Visual Design Resources",
+        "description": "My favorite design resources that I wish I knew about when I started designing."
       }
     ]
   }

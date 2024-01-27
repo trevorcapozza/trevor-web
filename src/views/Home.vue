@@ -1,6 +1,7 @@
 <template onselectstart="return false">
   <div class="background" ref="vantaBg">
-    <p>tc.</p>
+    <p>trevor</p>
+    <p>capozza</p>
   </div>
 </template>
 
